@@ -52,6 +52,7 @@ return require('packer').startup(function(use)
       config = function() require("nvim-autopairs").setup {} end
   }
   use 'tpope/vim-surround'
+  use 'tpope/vim-fugitive'
 end)
 
 
