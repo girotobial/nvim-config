@@ -7,13 +7,15 @@ lsp.ensure_installed({
 	"eslint",
 	"rust_analyzer",
     "svelte",
+    "sqlls"
 })
 
 lsp.format_on_save({
     servers = {
         ['rust_analyzer'] = {"rust"},
         ['svelte'] = {"svelte"},
-        ['tsserver'] = {"typescript"}
+        ['tsserver'] = {"typescript"},
+        ['sqlls'] = {"sql"}
     }
 })
 
