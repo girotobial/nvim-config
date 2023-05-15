@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/arobinson/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["centerpad.nvim"] = {
+    loaded = true,
+    path = "/home/arobinson/.local/share/nvim/site/pack/packer/start/centerpad.nvim",
+    url = "https://github.com/smithbm2316/centerpad.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/arobinson/.local/share/nvim/site/pack/packer/start/cmp-buffer",

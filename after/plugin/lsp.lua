@@ -7,7 +7,8 @@ lsp.ensure_installed({
 	"eslint",
 	"rust_analyzer",
     "svelte",
-    "sqlls"
+    "sqlls",
+    "ruff_lsp"
 })
 
 lsp.format_on_save({
@@ -15,7 +16,8 @@ lsp.format_on_save({
         ['rust_analyzer'] = {"rust"},
         ['svelte'] = {"svelte"},
         ['tsserver'] = {"typescript"},
-        ['sqlls'] = {"sql"}
+        ['sqlls'] = {"sql"},
+        ['ruff_lsp'] = {'python'}
     }
 })
 
